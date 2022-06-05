@@ -1,12 +1,11 @@
 {
+    "scripts": {
+        "start": "nodemon app.js",
+        "build": "express build --output public"
+    },
     "dependencies": {
         "express": "^4.18.1",
         "nodemon": "^2.0.16",
         "socket.io": "^4.5.1"
-    },
-
-    "scripts": {
-        "build": "express build --output public"
     }
-
 }
